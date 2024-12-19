@@ -9,6 +9,7 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",  # Replace with your frontend's URL
     "http://127.0.0.1:3000",
+    "https://stream-fe-ivory.vercel.app"
 ]
 
 app.add_middleware(
